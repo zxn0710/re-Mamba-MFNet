@@ -89,11 +89,11 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port=1234 train_M
 
 ## 八、测试
 
-'''bash
+```bash
 python test_MambaMFNet.py
 --model_path=./Model/Medical_Fusion-CT-MRI/Medical_Fusion/models/
 --iter_number=100000
 --dataset=CT-MRI
 --A_dir=CT
 --B_dir=MRI
-'''
+```
